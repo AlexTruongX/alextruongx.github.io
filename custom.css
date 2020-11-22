@@ -1,0 +1,6 @@
+.media-body {
+    -ms-flex: 1;
+    flex: 1;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
