@@ -4,3 +4,9 @@
     margin-top: 8px;
     margin-bottom: 8px;
 }
+
+/* Only resize the element if PDF is embedded */
+.pdfobject-container {
+   width: 50%;
+   height: 50%;
+}
