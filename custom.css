@@ -11,6 +11,12 @@
    height: 100%;
 }
 
-a {
+.contact a:link, a:visited{
     color: black;
+}
+.contact a:hover {
+    color: #1155cc;
+}
+.contact a:active {
+    color: purple;
 }
