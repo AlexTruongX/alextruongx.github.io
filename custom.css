@@ -7,8 +7,8 @@
 
 /* Only resize the element if PDF is embedded */
 .pdfobject-container, #resume {
-   width: 450px;
-   height: 600px;
+   width: 600px;
+   height: 800px;
 }
 
 .contact a:link, .contact a:visited{
