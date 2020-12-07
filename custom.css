@@ -11,6 +11,8 @@
    height: 1000px;
 }
 
+/* Makes hrefs for contact cards black, and
+   maintains intuitive design with link clicking */
 .contact a:link, .contact a:visited{
     color: black;
 }
@@ -19,4 +21,19 @@
 }
 .contact a:active {
     color: purple;
+}
+
+#hduke a:link, #hduke a:visited {
+    color: rgb(32, 32, 31);
+}
+#hduke a:hover {
+    color: #1155cc;
+}
+#hduke a:active {
+    color: purple;
+}
+
+.projects-lang-tech {
+    /* Allows you to put "Language/Technologies:" without breaking text */
+    padding-bottom: 32px;
 }
