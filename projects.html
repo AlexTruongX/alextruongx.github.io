@@ -1,60 +1,76 @@
 <!doctype html>
 <title>Projects</title>
-<meta property="og:url" content="https://alextruongx.github.io/projects"/>
+<meta property="og:url" content="https://alextruongx.github.io/projects" />
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+  integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+  integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+  integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" style="height:65px;">
-<link rel="stylesheet" type="text/css" href="custom.css">
+  <link rel="stylesheet" type="text/css" href="custom.css">
 
   <ul class="navbar-nav mr-auto flex-row">
-  	<li> <a class="nav-link" href="https://alextruongx.github.io" style="font-size:125%;">About</a>  </li>
-  	<li> <a class ="nav-link" href="projects.html" style="font-size:125%;"> Projects </a></li>
-  	 <li> <a class ="nav-link" href="resume.html" style="font-size:125%;"> Resume </a></li>
+    <li> <a class="nav-link" href="https://alextruongx.github.io" style="font-size:125%;">About</a> </li>
+    <li> <a class="nav-link" href="projects.html" style="font-size:125%;"> Projects </a></li>
+    <li> <a class="nav-link" href="resume.html" style="font-size:125%;"> Resume </a></li>
   </ul>
   </ul>
 </nav>
 
 <body style="background: #e8f0ff;">
-    <div class="container mx-auto" style="width: 80%; margin-top:50px;">
-        <!-- Movie Classifier -->
-      <div class="jumbotron projects-lang-tech" style="background: #2de25f" >
-        <div class="text-center">
-          <h1 class="display-3" style="color: rgb(32, 32, 31);">SpotJournal</h1>
-          <p style="color:rgb(32, 32, 31);">SpotJournal is a web application where users write journal entries about their emotions, comparing their emotional state before and after listening to a random, familiar song based on their personal Spotify data. I worked on the back-end where I learned how to create API requests and handle responses, specifically with Spotify's Web API and Youtube's Data API. Then, we stored relevant data entries using mySQL with Flask as our framework, and deployed it on Google Cloud Platform.</p>
-          <p><a style="font-style:italic; text-decoration: underline;" href="https://devpost.com/software/spotjournal">Devpost Submission for HackDuke 2020</a></p>
-          <a class="btn btn-dark" href="https://github.com/herariom/SpotJournal"> GitHub </a>
-          <p><br>Languages & Technologies: Python, Flask, mySQL, Google Cloud Platform</p>
-        </div>
-      </div>      
-        <!-- Movie Classifier -->
-          <div class="jumbotron projects-lang-tech" style="background: #F08080;" >
-            <div class="text-center">
-            <h1 class="display-3" style="color: #fcfcfce5;">Movie Classifier</h1>
-            <p style="color:#fcfcfce5;"> In this project, I built and tested a supervised machine learning k-nearest-neighbors classifier that could guess whether a movie is a comedy or a thriller, using only the number of times words appear in the movies's screenplay. I learned how classification works and the statistical analysis behind it as well, such as the application of linear regression and classification onto categorical data.</p>
-            <a class="btn btn-dark" href="https://github.com/AlexTruongX/tic-tac-toe"> GitHub </a>
-            <p style="color: #fcfcfce5;"><br>Languages & Technologies: Python, NumPy, Matplotlib, Jupyter</p>
-            </div>
-        </div>        
-        <!-- Tic-Tac-Toe -->
-        <div class="jumbotron projects-lang-tech" style="background: rgb(32, 32, 31);" >
-            <div class="text-center">
-            <h1 class="display-3" style="color: rgba(252, 252, 252, 0.898);">Tic-Tac-Toe</h1>
-            <p style="color:rgba(252, 252, 252, 0.898);"> A command-line game where two players alternate turns putting Xs and Os on a 3x3 grid. The goal is to get three Xs or three Os in a row before your opponent does. This was my first personal coding project after my first programming class in college. It's a reminder of where I used to be.</p>
-            <a class="btn btn-dark" href="https://github.com/AlexTruongX/tic-tac-toe"> GitHub </a>
-            <p style="color: rgba(252, 252, 252, 0.898);"><br>Languages & Technologies: Python</p>
-            </div>
-        </div>
-        <!-- Calculator -->
-        <div class="jumbotron projects-lang-tech" style="background: #b2c9f4" >
-          <div class="text-center">
-          <h1 class="display-3" style="color: #042e7a">GUI Calculator</h1>
-          <p style="color:#042e7a">A clickable, basic calculator built using JavaScript and HTML/CSS with additional functions such as exponents, average, and square root.</p>
-          <a class="btn btn-dark" href="https://alextruongx.github.io/js-calculator/calculator"> Demo </a>
-          <p style="color: #042e7a"><br>Languages & Technologies: JavaScript, HTML/CSS</p>
-          </div>
+  <div class="container mx-auto" style="width: 80%; margin-top:50px;">
+    <!-- Movie Classifier -->
+    <div class="jumbotron projects-lang-tech" style="background: #2de25f">
+      <div class="text-center">
+        <h1 class="display-3" style="color: rgb(32, 32, 31);">SpotJournal</h1>
+        <p style="color:rgb(32, 32, 31);">SpotJournal is a web application where users write journal entries about their
+          emotions, comparing their emotional state before and after listening to a random, familiar song based on their
+          personal Spotify data. I worked on the back-end where I learned how to create API requests and handle
+          responses, specifically with Spotify's Web API and Youtube's Data API. Then, we stored relevant data entries
+          using mySQL with Flask as our framework, and deployed it on Google Cloud Platform.</p>
+        <p><a style="font-style:italic; text-decoration: underline;"
+            href="https://devpost.com/software/spotjournal">Devpost Submission for HackDuke 2020</a></p>
+        <a class="btn btn-dark" href="https://github.com/herariom/SpotJournal"> GitHub </a>
+        <p><br>Languages & Technologies: Python, Flask, mySQL, Google Cloud Platform</p>
       </div>
+    </div>
+    <!-- Movie Classifier -->
+    <div class="jumbotron projects-lang-tech" style="background: #F08080;">
+      <div class="text-center">
+        <h1 class="display-3" style="color: #fcfcfce5;">Movie Classifier</h1>
+        <p style="color:#fcfcfce5;"> In this project, I built and tested a supervised machine learning
+          k-nearest-neighbors classifier that could guess whether a movie is a comedy or a thriller, using only the
+          number of times words appear in the movies's screenplay. I learned how classification works and the
+          statistical analysis behind it as well, such as the application of linear regression and classification onto
+          categorical data.</p>
+        <a class="btn btn-dark" href="https://github.com/AlexTruongX/tic-tac-toe"> GitHub </a>
+        <p style="color: #fcfcfce5;"><br>Languages & Technologies: Python, NumPy, Matplotlib, Jupyter</p>
+      </div>
+    </div>
+    <!-- Tic-Tac-Toe -->
+    <div class="jumbotron projects-lang-tech" style="background: rgb(32, 32, 31);">
+      <div class="text-center">
+        <h1 class="display-3" style="color: rgba(252, 252, 252, 0.898);">Tic-Tac-Toe</h1>
+        <p style="color:rgba(252, 252, 252, 0.898);"> A command-line game where two players alternate turns putting Xs
+          and Os on a 3x3 grid. The goal is to get three Xs or three Os in a row before your opponent does. This was my
+          first personal coding project after my first programming class in college. It's a reminder of where I used to
+          be.</p>
+        <a class="btn btn-dark" href="https://github.com/AlexTruongX/tic-tac-toe"> GitHub </a>
+        <p style="color: rgba(252, 252, 252, 0.898);"><br>Languages & Technologies: Python</p>
+      </div>
+    </div>
+    <!-- Calculator -->
+    <div class="jumbotron projects-lang-tech" style="background: #b2c9f4">
+      <div class="text-center">
+        <h1 class="display-3" style="color: #042e7a">GUI Calculator</h1>
+        <p style="color:#042e7a">A clickable, basic calculator built using JavaScript and HTML/CSS with additional
+          functions such as exponents, average, and square root.</p>
+        <a class="btn btn-dark" href="https://alextruongx.github.io/js-calculator/calculator"> Demo </a>
+        <p style="color: #042e7a"><br>Languages & Technologies: JavaScript, HTML/CSS</p>
+      </div>
+    </div>
 </body>
-
