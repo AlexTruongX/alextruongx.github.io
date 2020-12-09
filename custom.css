@@ -37,3 +37,7 @@
     /* Allows you to put "Language/Technologies:" without breaking text */
     padding-bottom: 32px;
 }
+
+.nav-bar-spacing li {
+    padding: 5px;
+}
